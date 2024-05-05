@@ -19,6 +19,7 @@ from config import adminlist
 
 IS_BROADCASTING = False
 
+SUDOERS = 5932230962
 
 @app.on_message(filters.command("broadcast") & SUDOERS)
 @language
